@@ -1,0 +1,60 @@
+/* Custom Layout & Styling for ReactLearn */
+
+.max-w-6xl {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Light Blue Hero Background */
+.bg-light-blue {
+  background: #edf5ff;
+}
+
+/* Nav Item Styling */
+.active-nav-item {
+  color: #2563eb !important;
+  font-weight: 600;
+}
+
+/* Feature Cards & Interactive Elements */
+.feature-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* List Group Item active override */
+.list-group-item.active {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+}
+
+/* Primary Button Styling */
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  font-weight: 500;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+}
+
+/* Form Control Focus Styles */
+.form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 0.25rem rgba(37, 99, 235, 0.15);
+}
+
+/* Hero & About SVG Illustrations Responsive */
+.hero-illustration,
+.about-illustration {
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.06));
+}
