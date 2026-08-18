@@ -11,7 +11,6 @@ const Navbar = ({ totalLearners, activeCount }) => {
         <a className="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#home">
           <i className="bi bi-journal-code text-cyan fs-3 text-info"></i>
           <span>React Learning Hub</span>
-          <span className="brand-badge ms-1">FSD Lab 5</span>
         </a>
         <button
           className="navbar-toggler"
